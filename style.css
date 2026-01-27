@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header-container{
+    background-image: url(./assets/hero-bg.png);
+    height: 600px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background: var(--Linear, linear-gradient(237.26deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1))); */
+    height: 60px;
+    align-items: center;
+
+}
+/* .techwave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.TECH{
+    color: aliceblue;
+   
+}
+.WAVE{
+    color: rgba(251, 9, 174, 1);
+}
+.nav-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  
+}
+.nav-mid a{
+    text-decoration: none;
+    gap: 20px;
+      color: aliceblue;
+}
+.nav-btn{
+    background: var(--Linear, linear-gradient(237.26deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    display: flex;
+    gap: 4px;
+    color: aliceblue;
+    padding: 12px;
+    border: none;
+    height: 44px;
+    margin-right: 20px;
+
+}
+
+
+.hero-techwave-part{
+    color: aliceblue;
+}
+.hero-small-letter{
+    font-size: small;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding-bottom: .8rem;
+}
+.hero-techwave-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+
+    .hero-btn{
+        display: flex;
+        gap: .3rem;
+    }
+    .Listen-on-spotify{
+        background-color: rgba(251, 9, 180, 1);
+        color: aliceblue;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding-left: .2rem;
+        padding-right: .2rem;
+        border: none;
+    }
+    .Subscribe{
+        background-color:none;
+      color: #00FF88;
+    border: #00FF88 solid;
+    border-radius: 5px;
+    background-color: transparent;
+     padding-left: .3rem;
+     padding-right: .3rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: .2rem;
+      
+    }
+    .pic-con img{
+        width: 300px;
+        height: 300px;
+        padding: .8rem;
+    
+    }
