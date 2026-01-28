@@ -11,8 +11,9 @@
     background-image: url(./assets/hero-bg.png);
     /* max-width: 100%; */
     background-size:cover;
-    /* min-height: 400px; */
+    min-height: 400px;
     background-position: center;
+    background-repeat: no-repeat;
    
    
   
@@ -364,6 +365,17 @@ font-size: small;
     display: none !important;
 }
 @media screen and (max-width:576px){
+    .header-container{
+    background-image: url(./assets/hero-bg.png);
+    /* max-width: 100%; */
+    background-size:cover;
+    min-height: 400px;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+   
+   
+  
+}
 
    .host-contaier{
     display: flex;
@@ -430,11 +442,11 @@ font-size: small;
 .About-section-parent{
     padding: 100px;
 }
-.header-container{
+/* .header-container{
     background-image: url(./assets/hero-bg.png);
     max-width: 100%;
     background-size: 100%
-    
+     */
   
 }
 .nav-mid,
