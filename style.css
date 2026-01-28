@@ -2,15 +2,19 @@
     margin: 0px;
     padding: 0px;
     max-width: 1600px;
-    
+    font-family: 'inter',sans-serif;
+   font-weight: 300;
 
 
 }
 .header-container{
     background-image: url(./assets/hero-bg.png);
-    max-width: 100%;
-    background-size: 100%;
-    min-height: 400px;
+    /* max-width: 100%; */
+    background-size:cover;
+    /* min-height: 400px; */
+    background-position: center;
+   
+   
   
 }
 .navbar{
@@ -39,11 +43,16 @@
     align-items: center;
     gap: 15px;
   
+  
 }
 .nav-mid a{
     text-decoration: none;
     gap: 20px;
       color: aliceblue;
+
+}
+.hamburger-menu{
+    display: none;
 }
 .nav-btn{
     background: var(--Linear, linear-gradient(237.26deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
@@ -57,6 +66,7 @@
     border: none;
     height: 44px;
     margin-right: 20px;
+   
 
 }
 
@@ -114,9 +124,7 @@
      gap: .2rem;
       
     }
-    .new-btn{
-        
-    }
+    
     .hero-container .hero-new{ 
         color:black;
         background-color: #00FF88;
@@ -183,6 +191,7 @@ padding-bottom: 20px;
     justify-content: center;
     align-items: center;
 }
+
 
 .why-choose {color: aliceblue;
     text-align: center;
@@ -315,7 +324,7 @@ font-size: small;
 }
 #sm{
     font-size: smaller;
-    font-weight: 100;
+    font-weight: 150px;
 }
 .host-contaier img{
     padding-left: 20px;
@@ -344,6 +353,101 @@ font-size: small;
     gap:5px;
 
 }
+.flex-row-container{
+    display: flex;
+    flex-direction: row;
+}
 .footer-parent{
     min-height: 200px;
+}
+.hide{
+    display: none !important;
+}
+@media screen and (max-width:576px){
+
+   .host-contaier{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    padding: 10px;
+     background: rgba(26, 11, 46, 1);
+   
+}
+  .host-contaier img{
+    align-items: center;
+    justify-content: center;
+  }
+.alex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    
+    align-items: center;
+    
+}
+.sm{
+    align-items: center;
+   
+}
+.why-choose-techwave-cart{
+     display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-top: 10px;
+    padding-bottom: 50px;
+     background: rgba(26, 11, 46, 1);
+     gap: 10px;
+     position: relative;
+}
+.Why-Choose-Section{ 
+    background: rgba(26, 11, 46, 1);
+    
+
+    display: grid;
+    gap: 20px;
+    
+    /* gap: 10px; */
+    grid-template-areas: 
+     "header"
+    "nav"
+    "main-top"
+    "main-bottom"
+    "main-bottom"
+    "footer-left"
+    "footer-right"
+
+   
+}
+
+.rating-cart{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns:repeat(2,1fr);
+    background: rgba(26, 11, 46, 1);;
+    padding: 20px;
+    
+}
+.About-section-parent{
+    padding: 100px;
+}
+.header-container{
+    background-image: url(./assets/hero-bg.png);
+    max-width: 100%;
+    background-size: 100%
+    
+  
+}
+.nav-mid,
+.nav-btn{
+    display: none;
+}
+.hamburger-menu{
+    display:block;
+    padding-right: 10px;
+
+}
+.flex-row-container{
+    display: flex;
+    flex-direction: column;
+}
 }
