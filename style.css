@@ -354,12 +354,17 @@ font-size: small;
     gap:5px;
 
 }
-.flex-row-container{
+.flex-row-container2{
+    display: flex;
+    flex-direction: row;
+}
+.flex-row-container1{
     display: flex;
     flex-direction: row;
 }
 .footer-parent{
     min-height: 200px;
+    
 }
 .hide{
     display: none !important;
@@ -447,8 +452,8 @@ font-size: small;
     max-width: 100%;
     background-size: 100%
      */
-  
-}
+
+
 .nav-mid,
 .nav-btn{
     display: none;
@@ -462,4 +467,11 @@ font-size: small;
     display: flex;
     flex-direction: column;
 }
+.flex-row-container2{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row-container1{
+    display: flex;
+    flex-direction: column;}
 }
