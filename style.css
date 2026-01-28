@@ -136,7 +136,17 @@
    
 }
 .pic-container{
-    background-color: #00FF88;
+    
+    position: relative;
+}
+.mic{
+    position: absolute;
+    left: 50px;
+    top: 28px;
+}
+.hero-new{
+    position: absolute;
+    left: 120px;
 }
 .about-sec{
     
@@ -258,8 +268,22 @@ text-align: center;
     padding-bottom: 50px;
      background: rgba(26, 11, 46, 1);
      gap: 10px;
+     position: relative;
 
 }
+.yt-play{
+    
+   position: relative;
+    right: -180px;
+    bottom: 110px;
+
+}
+.cart-1 .cart-2 .cart-3, a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
 .why-choose-techwave-cart,.cart-1, .cart-2, .cart-3{
 
     color: aliceblue;
@@ -299,9 +323,27 @@ font-size: small;
 
 .footer-parent{
     background-image: url(./assets/footer-bg.png);
+    background-position: 100%;
     color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.foot-icn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap:5px;
+
+}
+.footer-parent{
+    min-height: 200px;
 }
