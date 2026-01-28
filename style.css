@@ -1,12 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
+    max-width: 1600px;
+    
+
 
 }
 .header-container{
     background-image: url(./assets/hero-bg.png);
     max-width: 100%;
     background-size: 100%;
+    min-height: 400px;
   
 }
 .navbar{
@@ -136,6 +140,7 @@
 }
 .about-sec{
     
+    
 }
 .About-section-parent{
     font-weight: 100;
@@ -145,7 +150,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 180px;
     
 }
 .About-section-parent .ABP{
@@ -163,6 +168,138 @@ padding-bottom: 20px;
     color: aliceblue;
 }
 .rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose {color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+grid-area: header;
+}
+
+.mobile-friendly{
+    grid-area: main-top;
+    color: white;
+    background: rgba(53, 17, 101, 0.4);
+    border: rgba(53, 17, 101, 0.4) solid 1px;
+    border-radius: 8px;
+    padding: 30px;
+    
+}
+.Global-Community{
+    grid-area: main-bottom;
+    color: white;
+    background: rgba(53, 17, 101, 0.4);
+    border: rgba(53, 17, 101, 0.4) solid 1px;
+    border-radius: 8px;
+     padding: 30px;
+}
+
+.sidebar{
+    grid-area: nav;
+    color: aliceblue;
+      background: rgba(53, 17, 101, 0.4);
+    border: rgba(53, 17, 101, 0.4) solid 1px;
+    border-radius: 8px;
+     padding: 30px;
+}
+.footer-left{
+    grid-area: footer-left;
+    color: aliceblue;
+      background: rgba(53, 17, 101, 0.4);
+    border: rgba(53, 17, 101, 0.4) solid 1px;
+    border-radius: 8px;
+     padding: 30px;
+}
+.footer-right{
+    grid-area: footer-right;
+    color: aliceblue;
+      background: rgba(53, 17, 101, 0.4);
+    border: rgba(53, 17, 101, 0.4) solid 1px;
+    border-radius: 8px;
+     padding: 30px;
+}
+.Why-Choose-Section{ 
+    background: rgba(26, 11, 46, 1);
+    
+
+    display: grid;
+    gap: 20px;
+    
+    /* gap: 10px; */
+    grid-template-areas: 
+    "header      header      header      header        header        header"
+    "nav         nav         main-top    main-top      main-top      main-top"
+    "nav         nav         main-top    main-top      main-top      main-top"
+    "nav         nav         main-bottom main-bottom   main-bottom   main-bottom"
+    "nav         nav         main-bottom main-bottom   main-bottom   main-bottom"
+    "footer-left footer-left footer-left footer-left   footer-right  footer-right"
+    "footer-left footer-left footer-left footer-left   footer-right  footer-right"
+
+
+}
+.why-choose-techwave{
+text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+ background: rgba(26, 11, 46, 1);
+ color: aliceblue;
+}
+ 
+
+.why-choose-techwave-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 10px;
+    padding-bottom: 50px;
+     background: rgba(26, 11, 46, 1);
+     gap: 10px;
+
+}
+.why-choose-techwave-cart,.cart-1, .cart-2, .cart-3{
+
+    color: aliceblue;
+    padding: 15px;
+}
+.why-choose-techwave, .p{
+font-size: small;
+}
+.host-contaier{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+     background: rgba(26, 11, 46, 1);
+}
+.alex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+.meet-host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(26, 11, 46, 1);
+    color: aliceblue;
+    font-size: 2rem;
+}
+#sm{
+    font-size: smaller;
+    font-weight: 100;
+}
+.host-contaier img{
+    padding-left: 20px;
+}
+
+.footer-parent{
+    background-image: url(./assets/footer-bg.png);
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
